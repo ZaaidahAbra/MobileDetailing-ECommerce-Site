@@ -14,7 +14,7 @@ Auto Stallion is a premium e-commerce mobile car detailing business based in Cap
 
 - - - -
 ## Live Demo
-[Link to the live deployed website](https://github.com/CALEBABR18/MobileDetailing-ECommerce-Site.git)
+[Link to the live deployed website](https://mobile-detailing-ecommerce.vercel.app/#/)
 - - - -
 ## Key Features
  * User Authentication: Sign up , login , and reset password functionality via email.
