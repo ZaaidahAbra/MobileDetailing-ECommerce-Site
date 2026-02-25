@@ -4,13 +4,15 @@
     <router-view/>
   </div>
   <AppFooter />
+  <SpeedInsights />
 </template>
 
 <script>
 import AppNavbar from './components/AppNavbar.vue';
 import AppFooter from './components/AppFooter.vue';
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 export default {
-  components: { AppNavbar, AppFooter }
+  components: { AppNavbar, AppFooter, SpeedInsights }
 }
 </script>
 
