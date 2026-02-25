@@ -27,12 +27,11 @@
   <router-link to="/about" class="nav-links" style="--i:3;">About Us</router-link>
   <router-link to="/contact" class="nav-links" style="--i:4;">Contact Us</router-link>
       <template v-if="isLoggedIn">
-        <!-- <span class="nav-links" style="font-weight:600;--i:6;">Welcome, {{ userName }}</span> -->
-        <button @click="logout" class="nav-links" style="background:none;border:none;color:inherit;cursor:pointer;font:inherit;--i:5;font-size: 20px;">Logout</button>
-        <span class="nav-links" style="font-weight:600;--i:6;margin-left: 50px;font-size: 1.5rem;margin-right: 70px;">Welcome, {{ userName }}</span>
+        <button @click="logout" class="nav-links auth-action">Logout</button>
+        <span class="nav-links user-welcome">Welcome, {{ userName }}</span>
       </template>
       <template v-else>
-        <router-link to="/login" class="nav-links" style="--i:5;font-weight:600;margin-left: 70px;font-size: 1.3rem;margin-right: 70px;">Login</router-link>
+        <router-link to="/login" class="nav-links auth-action">Login</router-link>
       </template>
     </nav>
   </header>
@@ -179,14 +178,25 @@ header {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
-  margin-left: 5rem; 
+  margin-left: 2rem; 
+}
+.logo img {
+  max-width: 190px;
+  width: 100%;
+  height: auto;
+}
+.navigation {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-right: 2rem;
 }
   .navigation a, .navigation button {
-    font-size: 1.22rem;
+    font-size: 1rem;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 1.5rem;
+    margin-left: 0.7rem;
     background: none;
     border: none;
     cursor: pointer;
@@ -203,7 +213,7 @@ header {
   .nav-links {
     position: relative;
     color: #fff;
-    font-weight: 900;
+    font-weight: 700;
     transition: color 0.18s ease-in-out;
   }
   .nav-links::after {
@@ -216,6 +226,16 @@ header {
   }
   .nav-links:hover::after {
     width: 100%;
+  }
+  .auth-action {
+    font-weight: 700;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  .user-welcome {
+    font-weight: 700;
+    margin-left: 0.5rem;
+    font-size: 1rem;
   }
 
 #check:checked~.navigation {
@@ -232,11 +252,14 @@ header {
   display:none;
 }
 @media (max-width: 1000px) {
-  .header{
+  header{
     padding: 1.3rem 5%;
   }
 }
 @media (max-width: 768px) {
+  .logo {
+    margin-left: 1rem;
+  }
   .icons {
     display: inline-flex;
     font-size: 1.8rem;
@@ -247,28 +270,35 @@ header {
     left: 0;
     height: 0;
     width: 100%;
-    background: rgba(0, 0, 0, .1);
-    backdrop-filter: blur(50px);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .12);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .08);
     transition: .3s ease;
     overflow: hidden;
+    padding-right: 1rem;
+    flex-direction: column;
+    gap: 0;
+    align-items: stretch;
   }
   #check:checked~.navigation {
-    height: 17.7rem;
+    height: 18rem;
   }
   .navigation a {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     text-align: center;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     transform: translateY(-50px);
     transition: .3s ease;
     opacity: 0;
   }
   #check:checked~.navigation a {
     transform: translateY(0);
-    transition-delay: calc(.15s * var(--i));
+    transition-delay: calc(.12s * var(--i));
     opacity: 1;
+  }
+  .user-welcome {
+    display: none;
   }
 }
 </style>

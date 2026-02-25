@@ -26,4 +26,10 @@ export default {
 #app-content {
   margin-top: 90px; 
 }
+
+@media (max-width: 768px) {
+  #app-content {
+    margin-top: 140px;
+  }
+}
 </style>
