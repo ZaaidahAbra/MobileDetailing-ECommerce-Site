@@ -31,28 +31,6 @@
       </div>
     </div>
 
-    <!-- Philosophy Section -->
-    <div class="philosophy-section">
-      <h2>Our Philosophy</h2>
-      <div class="philosophy-grid">
-        <div class="philosophy-card">
-          <div class="icon">🛡️</div>
-          <h3>Protection First</h3>
-          <p>We use only the best ceramic coatings, PPF, and eco-friendly products to ensure your vehicle is protected for years to come.</p>
-        </div>
-        <div class="philosophy-card">
-          <div class="icon">✨</div>
-          <h3>Attention to Detail</h3>
-          <p>Every inch matters. Our team is trained to deliver flawless results, inside and out, for every car and every client.</p>
-        </div>
-        <div class="philosophy-card">
-          <div class="icon">🚗</div>
-          <h3>Convenience & Care</h3>
-          <p>Mobile or studio, we work around your schedule. Enjoy luxury service at your home, office, or in our state-of-the-art studio.</p>
-        </div>
-      </div>
-    </div>
-
     <!-- Studio Section -->
     <div class="studio-section">
       <div class="studio-overlay"></div>
@@ -65,28 +43,6 @@
           <p>Comfortable client lounge with WiFi</p>
           <p>Secure, insured facility</p> 
         </ul>
-      </div>
-    </div>
-
-    <!-- Team Section -->
-    <div class="team-section">
-      <h2>Meet the Team</h2>
-      <div class="team-grid">
-        <div class="team-member">
-          <img src="https://carcareful.peacefulqode.in/wp-content/uploads/2024/01/testimonial-01.jpg" alt="Lead Detailer">
-          <h4>Harvey Specter</h4>
-          <p>Lead Detailer & Paint Correction Specialist</p>
-        </div>
-        <div class="team-member">
-          <img src="https://808autodetail.com/wp-content/uploads/2024/08/31.jpg" alt="PPF Expert">
-          <h4>Sam Sulek</h4>
-          <p>PPF & Ceramic Coating Expert</p>
-        </div>
-        <div class="team-member">
-          <img src="https://img.freepik.com/premium-photo/portrait-young-woman-professional-female-mechanic-smiling-camera-standing-auto-repair-shop-car-service-repair-maintenance-people-concept_1429-25663.jpg" alt="Mobile Specialist">
-          <h4>Megan Jay</h4>
-          <p>Mobile Detailing Specialist</p>
-        </div>
       </div>
     </div>
 

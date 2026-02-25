@@ -36,7 +36,7 @@
             <p>Our Paint Protection Film (PPF) service creates a clear, durable layer over your paint to defend against everyday wear—without altering how your vehicle looks. </p>
           </div>
           <div class="col-lg-6">
-            <img src="@/assets/nppf.png" alt="ppf" class="img-fluid rounded shadow ppf-hero-img">
+            <img src="/auto frontend\MobileDetailing-ECommerce-Site/assets/nppf.png" alt="ppf" class="img-fluid rounded shadow ppf-hero-img">
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@
           <div class="col-lg-6">
             <div class="">
               <video controls width = "400" >
-                <source src="@/assets/ppf.mp4" type="video/mp4" />
+                <source src="auto frontend\MobileDetailing-ECommerce-Site/assets/ppf.mp4" type="video/mp4" />
               </video>
             </div>
           </div>

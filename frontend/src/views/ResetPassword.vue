@@ -25,7 +25,7 @@
   <div class="forgot-password-page">
     <div class="login-container">
       <div class="brand-section">
-        <img src="@/assets/auto-stallion.png" alt="Auto Stallion Logo" class="brand-logo">
+        <img src="/assets/auto-stallion.png" alt="Auto Stallion Logo" class="brand-logo">
         <h1 class="brand-tagline">Premium Automotive Detailing</h1>
       </div>
       <div class="forgot-password-card">

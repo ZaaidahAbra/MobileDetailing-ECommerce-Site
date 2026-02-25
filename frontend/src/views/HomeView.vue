@@ -825,10 +825,10 @@ p{
 
 }
 
-#p-text{
+/* #p-text{
     width: 800px;
     color: #fff;
-}
+} */
 
 /* container */
 .wrapper {
@@ -1145,7 +1145,7 @@ p{
     background: #000;
   /* background-image: url(/Images/parallax.jpeg); */
   /* background-image: url('Images/bmwpic.jpg'); */
-  background-image: url('~@/assets/bmwpic.jpg');
+  background-image: ('/auto frontend/MobileDetailing-ECommerce-Site/assets/bmwpic.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1413,4 +1413,178 @@ h1, h2, h3, h4, h5, h6,
 .parallax-content p {
   color: #fff !important;
 }
+
+/* =========================================================
+   GLOBAL RESPONSIVE IMPROVEMENTS
+========================================================= */
+
+/* Responsive headings */
+h1 {
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+}
+
+/* Fix paragraph width issue */
+#p-text {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Buttons responsive */
+@media (max-width: 768px) {
+  .btn-banner {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+/* =========================================================
+   HERO SECTION FIX
+========================================================= */
+
+@media (max-width: 768px) {
+  .video-text {
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    width: 90%;
+    text-align: center;
+  }
+
+  .text-wrap {
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .banText {
+    font-size: 28px;
+  }
+
+  .fansT {
+    font-size: 18px;
+  }
+
+  .sound-button {
+    right: 15px;
+    bottom: 15px;
+  }
+}
+
+
+/* =========================================================
+   SERVICES GRID FIX
+========================================================= */
+
+@media (max-width: 768px) {
+  .services-container {
+    width: 95%;
+  }
+
+  .card-container {
+    gap: 1.2rem;
+  }
+
+  .card-img {
+    height: 250px;
+  }
+}
+
+
+/* =========================================================
+   WHY CHOOSE US STACK SECTION MOBILE FIX
+========================================================= */
+
+@media (max-width: 992px) {
+  .stack-area {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    position: relative;
+    height: auto;
+    flex-basis: 100%;
+  }
+
+  .title,
+  .sub-title {
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .sub-title {
+    font-size: 16px;
+  }
+
+  .imgCard {
+    position: relative;
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+    top: unset;
+    left: unset;
+    transform: none !important;
+  }
+}
+
+
+/* =========================================================
+   PARALLAX SECTION FIX
+========================================================= */
+
+.parallax-container {
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .parallax-content {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .parallax-content h1 {
+    font-size: 24px;
+  }
+
+  .parallax-content p {
+    font-size: 14px;
+  }
+
+  /* Disable heavy parallax effect on mobile */
+  .parallax-header1 {
+    background-attachment: scroll;
+  }
+}
+
+
+/* =========================================================
+   GENERAL MOBILE SPACING CLEANUP
+========================================================= */
+
+@media (max-width: 768px) {
+  section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .customContainer {
+    padding: 15px;
+  }
+
+  .container-five {
+    padding: 15px;
+  }
+}
+
 </style>

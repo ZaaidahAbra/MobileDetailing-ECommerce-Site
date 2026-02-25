@@ -63,19 +63,15 @@
             <div class="col">
           <ul class="list-unstyled">
             <li class="fw-bold my-2">Office Location</li>
-            <p>1234 Luxury Lane,<br>Suite 100, State, 12345</p>
+            <li class="text-decoration-none text-white">LifeChoices<br>Lansdowne, Cape Town, 7764</li>
           </ul>
         </div>
-        <!-- <div class="col-sm text text-end">
-            <h4>Office Location<br></h4>
-            <p>1234 Luxury Lane,<br>Suite 100, State, 12345</p>
-        </div> -->
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-12 text-center pt-2">
-          <h5>&copy; Copyright © Auto Stallion Official 2025</h5>
+        <div class="text-decoration-none text-white text-center">
+          <h6>&copy; Copyright © Auto Stallion Official 2025</h6>
           <br>
         </div>
       </div>

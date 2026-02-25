@@ -14,7 +14,7 @@
             </p>
           </div>
           <div class="col-lg-6">
-            <img src="@/assets/dryice.jpg" alt="Dry Ice Cleaning" class="img-fluid rounded shadow">
+            <img src="\auto frontend\MobileDetailing-ECommerce-Site/assets/dryice.jpg" alt="Dry Ice Cleaning" class="img-fluid rounded shadow">
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
       <div class="col-lg-6">
         <div>
           <video controls>
-            <source src="@/assets/dryiceViddd.mp4" type="video/mp4" />
+            <source src="/assets/dryiceViddd.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

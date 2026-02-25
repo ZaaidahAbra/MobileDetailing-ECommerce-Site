@@ -299,6 +299,118 @@ onMounted(() => {
 </script>
 
 <style scoped>
+/* Hero Banner Responsive */
+@media (max-width: 1024px) {
+  .bannerT {
+    min-height: 500px;
+  }
+  .text-wrap {
+    margin-top: 120px;
+    padding: 15px;
+    font-size: 1rem;
+  }
+  .banTexts {
+    font-size: 2rem;
+  }
+  .fansT {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerT {
+    min-height: 400px;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-wrap {
+    margin-top: 80px;
+    padding: 10px;
+  }
+  .banTexts {
+    font-size: 1.5rem;
+  }
+  .fansT {
+    font-size: 0.95rem;
+  }
+}
+
+/* Applications Grid Responsive */
+@media (max-width: 992px) {
+  .application-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .application-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Pricing Tiers Responsive */
+@media (max-width: 768px) {
+  .price-tiers {
+    grid-template-columns: 1fr;
+  }
+  .tier {
+    padding: 20px;
+  }
+}
+
+/* Booking Modal Responsive */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95%;
+    padding: 20px;
+  }
+  .two-column-form {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .form-actions {
+    flex-direction: column;
+  }
+  .check-availability,
+  .confirm-booking {
+    width: 100%;
+  }
+}
+
+/* Luxury Packages Section */
+@media (max-width: 480px) {
+  .luxury-packages {
+    padding: 20px 10px;
+  }
+  .two-col {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .two-col .title,
+  .two-col p {
+    width: 100%;
+  }
+}
+
+/* Minor tweaks for small screens */
+@media (max-width: 360px) {
+  .banTexts {
+    font-size: 1.3rem;
+  }
+  .fansT {
+    font-size: 0.85rem;
+  }
+  .tier .price {
+    font-size: 1.5rem;
+  }
+}
+
 .bannerT {
     color: white;
     min-height: 300px;
