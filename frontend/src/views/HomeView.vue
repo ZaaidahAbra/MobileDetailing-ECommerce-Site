@@ -1145,11 +1145,13 @@ p{
     background: #000;
   /* background-image: url(/Images/parallax.jpeg); */
   /* background-image: url('Images/bmwpic.jpg'); */
-  background-image: ('/auto frontend/MobileDetailing-ECommerce-Site/assets/bmwpic.jpg');
+   background-image: ('/assets/bmwpic.jpg'); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  background-position: center;
+  display: flex;
 }
 
 .parallax-content {

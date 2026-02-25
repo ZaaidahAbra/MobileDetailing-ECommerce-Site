@@ -156,7 +156,7 @@ const steps = ref([
     number: '01',
     title: 'All Executive Services',
     description: 'Includes professional vacuuming, steam cleaning, leather treatment, dashboard and console detailing, and full interior care for your car.',
-    image: 'https://cardetailingtemeculaca.com/wp-content/uploads/2024/04/How-Does-Steam-Cleaning-Work-in-Temecula-CA.webp'
+    image: 'https://branfordcarwashandexpresslube.com/wp-content/uploads/2025/02/clean-car-vacuum-today-170814-tease.jpg'
   },
   {
     number: '02',

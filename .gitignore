@@ -61,11 +61,4 @@ coverage/
 __pycache__/
 
 # Ignore media
-*.mp4
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.webp
-*.ico
-*.svg
+
