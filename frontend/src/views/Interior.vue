@@ -547,7 +547,7 @@ hr {
 }
 
 /* Odd items align left */
-.timeline-item:nth-child(odd) {
+.step-number ,.timeline-item:nth-child(odd) {
   justify-content: flex-end;
   padding-right: 30px;
   left: 0;
@@ -627,7 +627,7 @@ hr {
 
 .step-number {
   position: absolute;
-  top: 50%;
+  /* top: 50%; */
   transform: translateY(-50%);
   color: #C1902D;
   font-size: 2rem;
@@ -637,11 +637,13 @@ hr {
 }
 
 .timeline-item:nth-child(odd) .step-number {
-  left: -270px;
+  left: 18px;
+  top: -30px;
 }
 
 .timeline-item:nth-child(even) .step-number {
-  right: -270px;
+  right: 180px;
+  top: -15px;
 }
 
 .timeline-item-content h3 {

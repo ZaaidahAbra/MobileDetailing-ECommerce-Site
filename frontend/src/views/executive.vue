@@ -344,13 +344,24 @@ onMounted(() => {
 
 @media (max-width: 576px) {
   .application-grid {
-    grid-template-columns: 1fr;
-    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
   }
   .card {
-    width: 100%;
+    width: 40%;
     height: auto;
   }
+}
+
+@media (max-width: 500px) {
+  .application-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  /* .card {
+    width: 50%;
+    height: auto;
+  } */
 }
 
 /* Pricing Tiers Responsive */
@@ -512,7 +523,7 @@ onMounted(() => {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
-  height: 680px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -530,11 +541,8 @@ onMounted(() => {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 1s ease, transform 1s ease;
-}
-
-.card{
-  width: 380px;
-  height: 250px;
+  width: 100%;
+  min-height: 250px;
 }
 
 .application-card.fade-in {

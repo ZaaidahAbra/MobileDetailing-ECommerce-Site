@@ -22,7 +22,7 @@
 
 <section class="about-section py-5 bg-dark text-white">
   <div class="container">
-    <div class="row align-items-center g-100"> <!-- Added g-5 for gap -->
+    <div class="row"> 
 
       <!-- Left: Text -->
       <div class="col-lg-6">
