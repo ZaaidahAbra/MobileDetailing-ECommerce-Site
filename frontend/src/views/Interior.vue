@@ -962,7 +962,7 @@ hr {
 
   .timeline-item-content {
     width: 100%;
-    max-width: none;
+    height: auto;
   }
 
   .timeline-item:nth-child(odd) .timeline-item-content::after,
@@ -1027,21 +1027,44 @@ hr {
     line-height: 1.2;
     width: auto;
   }
+  
+   /* Remove all odd/even specific left/right overrides */
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-right: 0;
+    left: 0;
+  }
 
   .sub-title {
     width: auto;
   }
 
   .timeline-item-content {
-    padding: 15px;
+    padding: 8px;
+    width:100%;
+    height: auto;
+  }
+
+  .step-number {
+    font-size: 0.8rem;
+    padding-bottom : 15px;
+    /* display: none; */
   }
 
   .timeline-image {
-    height: 150px;
+    width:100%;
   }
 
   .tier .price {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .step-number {
+    display: none;
   }
 }
 </style>
